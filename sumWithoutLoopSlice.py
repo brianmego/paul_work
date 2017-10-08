@@ -14,6 +14,10 @@ def sumRecurBri(userList, tot=0):
     return tot
 
 
+def easter_egg():
+    print("This is amazing")
+
+
 # The most efficient version so far!
 def sumRecur(userList, tot = 0, i = 0):
     if len(userList) > i:
